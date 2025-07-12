@@ -287,3 +287,16 @@ nav{
 .elem:hover .overlay{
     top: 0;
 }
+
+#fixed-image{
+    height: 30vw;
+    width: 24vw;
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    top: 25%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
